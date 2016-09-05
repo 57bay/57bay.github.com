@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>在线留言</title>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/swiper.min.css">
+	<script type="text/javascript" src="../js/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/domejs.js"></script>
+	<link rel="shortcut icon"/ type="image/x-icon" href="../img/icon.ico">
+	<link rel="stylesheet" type="text/css" href="../iconfont/iconfont.css">
+</head>
+<body>
+<!-- QQ窗口 -->
+	<div class="qqzh">
+	<div class="qq">
+		<div class="qqn">
+			<div class="qqtit">在线业务代表</div>
+			<a class="qqZ" target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2046630865&site=qq&menu=yes">
+				<img border="0" src="../img/qq.png" alt="销售一" width="18%">
+				 <div class="qqZ2">销售一</div>
+			</a>
+			<div class="qqtit2"></div>
+			<a class="qqZ" target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2046630865&site=qq&menu=yes">
+				<img border="0" src="../img/qq1.png" alt="销售一" width="18%">
+				 <div class="qqZ2">销售二</div>
+			</a>
+			<div class="qqtit3">电话咨询</div>
+			<div class="qqph">
+				0755-66813781
+			</div>
+		</div>
+	</div>
+	<div class="qqslide">
+		<div class="iconfont icoc">&#xe603;</div>
+			在<br>线<br>业<br>务<br>咨<br>询
+		<div class="iconfont icoc icoc2">&#xe600;</div>
+		<div class="iconfont icoc icoc3 none">&#xe601;</div>
+	</div>
+</div>
+	<!-- 顶部 -->
+	<div class="top">
+		<div class="topMain">
+			<div class="topImg">
+				<img src="../img/logo.png" height="100%" alt="logo">
+			</div>
+		</div>
+	</div>
+	<!-- d导航 -->
+	<div class="header">
+		<div class="headerMain">
+			<div class="headerNav">网站首页</div>
+			<div class="headerNav">服务项目</div>
+			<div class="headerNav">服务流程</div>
+			<div class="headerNav">新闻中心</div>
+			<div class="headerNav">人才招聘</div>
+			<div class="headerNav navHover">在线留言</div>
+			<div class="headerNav">公司简介</div>
+			<div class="headerNav" style="border-right: 0.1rem solid #0c71d5;">联系我们</div>
+		</div>
+	</div>
+	<!-- banner -->
+	<div class="swiper-container">
+	  	<div class="swiper-wrapper">
+		    <div class="swiper-slide blue-slide">
+				<img src="../img/banner1.jpg" alt="">
+		    </div>
+		    <div class="swiper-slide red-slide">
+		    	<img src="../img/banner2.jpg" alt="">
+		    </div>
+		    <div class="swiper-slide orange-slide">
+		   		<img src="../img/banner3.jpg" alt="">
+		    </div>
+	 	</div>
+   <div class="swiper-pagination"></div>
+	</div>
+	<script src="../js/swiper.min.js"></script>
+	<script type="text/javascript">
+	  var mySwiper = new Swiper('.swiper-container',{
+	    		 loop: true,
+				 autoplay: 2000,
+				 pagination: '.swiper-pagination',
+	 		 	 });
+	</script>
+	<!-- 中部main -->
+	<div class="main">
+		<!-- 左边导航 -->
+		<div class="mainLeft">
+			<div class="mainLeftTop">在线留言</div>
+			<div class="mainLefts cor1"><div class="sanjiao iconfont">&#xe602;</div>国际海运</div>
+			<div class="mainLefts cor1"><div class="sanjiao iconfont">&#xe602;</div>国际空运</div>
+			<div class="mainLefts cor1"><div class="sanjiao iconfont">&#xe602;</div>国际物流</div>
+			<div class="mainLefts cor1"><div class="sanjiao iconfont">&#xe602;</div>快递服务</div>
+			<div class="mainLefts cor1"><div class="sanjiao iconfont">&#xe602;</div>海运拼箱</div>
+			<div class="mainLefts cor1"><div class="sanjiao iconfont">&#xe602;</div>仓促与配送</div>
+			<div class="mainLefts cor1"><div class="sanjiao iconfont">&#xe602;</div>代理报关报检</div>
+			<div class="mainLefts cor1"><div class="sanjiao iconfont">&#xe602;</div>特殊专案</div>
+			<div class="mainLeftTop">联系我们</div>
+			<div class="mainLeftP">
+				<strong>深圳市鸿浩国际货运代理有限公司</strong><br><br>
+				地址：深圳市宝安区西乡街道凤田中心区48-2栋102号<br>
+				电话：0755-82203852<br>
+				手机:13824336570<br>
+				邮箱：2046630865@qq.com<br>
+				QQ:2046630865
+			</div>
+		</div>
+		<div class="mainRight">
+			<div class="mainFuwu">在线留言</div>
+			<br><br>
+			<div class="profile">
+				<form method="post" action="mailto:523705068@qq.com">
+					<label for="title">标&nbsp;&nbsp;题：</label>
+					<input type="text" id="title"><br><br>
+					<label for="phone">留言性质：</label>
+					<select>
+						<option>普通留言</option>
+						<option>建议</option>
+						<option>咨询</option>
+						<option>合作</option>
+						<option>其他</option>
+					</select><br><br>
+					<label for="phone">电话号码：</label>
+					<input type="text" id="phone"><br><br>
+					<label for="email">电话号码：</label>
+					<input type="text" id="email"><br><br>
+					<textarea style="width: 500px;height: 200px"></textarea><br><br>
+					<input type="submit" value="留言到邮箱" style="padding-left: 5px;padding-right: 5px;" id="submit">
+				</form>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		var keng=document.getElementById("submit");
+			keng.onclick=function(){
+				alert("暂不提供在线留言，请用QQ联系，谢谢配合！")
+			}
+	</script>
+	<!-- footer -->
+	<div class="fonter">
+		<div class="fonterPd">
+			<div class="footerM"><a href="http://www.dhl.com/en.html">DHL</a></div>
+			<div class="footerM"><a href="http://www.ems.com.cn/">EMS</a></div>
+			<div class="footerM"><a href="http://www.fedex.com/">FedEx</a></div>
+			<div class="footerM footerM2"><a href="http://www.yundaex.com/cn/index.php">ups</a></div>
+		</div>
+	</div>
+	<div class="jishu">深圳市鸿浩国际货运代理有限公司 2016 版权所有 网站备案/许可证号:粤ICP备14067166号-1技术支持：QQ:523705068</div>
+	<script type="text/javascript">
+		 var _ocation=document.getElementsByClassName("headerNav");
+		// alert(_ocation[3].className)
+				_ocation[0].onclick=function(){
+		 			window.location.href="../index.html"
+		 		}
+		 		_ocation[1].onclick=function(){
+		 			window.location.href="../page/service-ltems.html"
+		 		}
+		 		_ocation[2].onclick=function(){
+		 			window.location.href="../page/service-flow.html"
+		 		}
+		 		_ocation[3].onclick=function(){
+		 			window.location.href="../page/service-news.html"
+		 		}
+		 		_ocation[4].onclick=function(){
+		 			window.location.href="../page/recruit.html"
+		 		}
+		 		// _ocation[5].onclick=function(){
+		 		// 	window.location.href="../page/Email.html"
+		 		// }
+		 		_ocation[6].onclick=function(){
+		 			window.location.href="../page/profiles.html"
+		 		}
+		 		_ocation[7].onclick=function(){
+		 			window.location.href="../page/contact.html"
+		 		}
+	</script>
+</body>
+</html>
